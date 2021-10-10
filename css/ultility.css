@@ -36,6 +36,22 @@ ul li{
 h1, h2, h3, h4, h5, h6, p {
     padding: 0.6rem 0;
 }
+
+.btn {
+    border: none;
+    margin: 1rem;
+    border-radius: 35px;
+    background: var(--purple);
+    font-style: 0.9rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
 .container {
     width: 90vw;
     margin: 0 auto;
